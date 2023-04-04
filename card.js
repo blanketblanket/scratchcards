@@ -88,7 +88,9 @@ function eraseLine(layer) {
 
 function touchMoved() {
   // prevent the display from moving around when you touch it
-  return false;
+  if (coinActive){
+    return false;
+  }
 }
 
 function windowResized() {
