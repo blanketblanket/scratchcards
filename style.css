@@ -1,0 +1,345 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: contain;
+}
+
+
+#top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 70px 10px 10px 10px;
+
+}
+
+#title{
+  max-height: 100%;
+  min-width: 20%;
+  flex-basis: 1 1 auto;
+}
+
+#poem{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0px 30px 0px;
+}
+
+
+#dumpling1 {
+  width: 200px;
+  height: 200px;
+  background: url(images/dumplingsprites200.png) 0 0;
+  position: absolute;
+  top: 548px;
+  right: 106px; 
+}
+
+#dumpling2 {
+  width: 200px;
+  height: 200px;
+  background: url(images/dumplingsprites200.png) -200px 0;
+  position: absolute;
+  top: 748px;
+  left: 13px; 
+}
+
+#dumpling3 {
+  width: 200px;
+  height: 200px;
+  background: url(images/dumplingsprites200.png) -400px 0;
+  position: absolute;
+  top: 1048px;
+  right: 33px; 
+}
+
+#dumpling4 {
+  width: 200px;
+  height: 200px;
+  background: url(images/dumplingsprites200.png) 0 -200px;
+  position: absolute;
+  top: 1548px;
+  left: 106px; 
+}
+
+#dumpling5 {
+  width: 200px;
+  height: 200px;
+  background: url(images/dumplingsprites200.png) -200px -200px;
+  position: absolute;
+  top: 1948px;
+  left: 13px; 
+}
+
+#dumpling6 {
+  width: 200px;
+  height: 200px;
+  background: url(images/dumplingsprites200.png) -400px -200px;
+  position: absolute;
+  top: 1848px;
+  right: 33px; 
+}
+
+
+#lettera {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px 0px ;
+  position:absolute;
+  top: 388px;
+  left: 16px; 
+}
+
+#letterb {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px 0px ;
+  position:absolute;
+  top: 308px;
+  left: 156px; 
+}
+
+#letterc {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px 0px ;
+  position:absolute;
+  top: 420px;
+  right: 90px; 
+}
+
+#letterd {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px -100px ;
+  position:absolute;
+  top: 488px;
+  right: 16px; 
+}
+
+#lettere {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px -100px ;
+  position:absolute;
+  top: 508px;
+  left: 156px; 
+}
+
+#letterf {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px -100px ;
+  position:absolute;
+  top: 760px;
+  right: 10px; 
+}
+
+#letterg {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px -200px ;
+  position:absolute;
+  top: 608px;
+  left: 96px; 
+}
+
+#letterh {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px -200px ;
+  position:absolute;
+  top: 798px;
+  right: 106px; 
+}
+
+#letteri {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px -200px ;
+  position:absolute;
+  top: 690px;
+  left: 260px; 
+}
+
+
+#letterj {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px -300px ;
+  position:absolute;
+  top: 808px;
+  left: 196px; 
+}
+
+#letterk {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px -300px ;
+  position:absolute;
+  top: 898px;
+  right: 46px; 
+}
+
+#letterl {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px -300px ;
+  position:absolute;
+  top: 920px;
+  left: 23px; 
+}
+
+#letterm {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px -400px ;
+  position:absolute;
+  top: 1008px;
+  left: 196px; 
+}
+
+#lettern {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px -400px ;
+  position:absolute;
+  top: 1298px;
+  left: 46px; 
+}
+
+#lettero {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px -400px ;
+  position:absolute;
+  top: 1120px;
+  left: 123px; 
+}
+
+#letterp {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px -500px ;
+  position:absolute;
+  top: 1308px;
+  right: 196px; 
+}
+
+#letterq {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px -500px ;
+  position:absolute;
+  top: 1398px;
+  right: 146px; 
+}
+
+#letterr {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px -500px ;
+  position:absolute;
+  top: 1420px;
+  left: 13px; 
+}
+
+
+#letters {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px -600px;
+  position:absolute;
+  top: 1608px;
+  right: 96px; 
+}
+
+#lettert {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px -600px;
+  position:absolute;
+  top: 1698px;
+  left: 46px; 
+}
+
+#letteru {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px -600px;
+  position:absolute;
+  top: 1490px;
+  left: 113px; 
+}
+
+#letterv {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px -700px;
+  position:absolute;
+  top: 1708px;
+  right: 26px; 
+}
+
+#letterw {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px -700px;
+  position:absolute;
+  top: 1828px;
+  left: 176px; 
+}
+
+#letterx {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px -700px;
+  position:absolute;
+  top: 1990px;
+  right: 13px; 
+}
+
+#lettery {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -100px -800px;
+  position:absolute;
+  top: 2108px;
+  right: 156px; 
+}
+
+#letterz {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -300px -800px;
+  position:absolute;
+  top: 2228px;
+  left: 16px; 
+}
+
+#exclaimationmark {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -400px -800px;
+  position:absolute;
+  top: 2290px;
+  right: 93px; 
+}
+
+#questionmark {
+  width: 100px;
+  height: 100px;
+  background: url(images/alphabetsprites100.png) -500px -800px;
+  position:absolute;
+  top: 2290px;
+  left: 113px; 
+}
