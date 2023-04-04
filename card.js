@@ -42,12 +42,11 @@ function draw() {
   for (var i =0; i<3; i++){
     image(cards[i],width/2,(i+1)*500+200)
   }
-  imageMode(CORNER);
-
   
   eraseLine(scratchLayer)
 
-  image(scratchLayer, 0, 0)
+  image(scratchLayer, width/2, canvasHeight/2)
+  imageMode(CORNER);
 
   fill([255,255,0])
   
