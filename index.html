@@ -5,9 +5,9 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <script src="lib/p5.js"></script>
+    <!-- <script src="lib/p5.js"></script>
     <script src="lib/p5.sound.js"></script>
-    <script src="card.js"></script>
+    <script src="card.js"></script> -->
     <link rel="stylesheet" href="style.css">
     <script src="drag.js" defer></script>    
   </head>
@@ -15,12 +15,29 @@
     <div id="top">
       <img id="title" src="images/title.png" alt="When you left your warmth remained">
     </div>
+    <div id="cards">
+      <div>
+        <img src="images/1back.png" alt="">
+      </div>
+      <div>
+        <img src="images/7back.png" alt="">
+      </div>
+      <div>
+        <img src="images/14back.png" alt="">
+      </div>
+      <div>
+        <img src="images/21back.png" alt="">
+      </div>
+      <div>
+        <img src="images/28back.png" alt="">
+      </div>
+    </div>
     <div id="dumplings">
-      <div class="draggable" id="dumpling1"></div>
+      <div class="draggable mobileHidden" id="dumpling1"></div>
       <div class="draggable" id="dumpling2"></div>
       <div class="draggable" id="dumpling3"></div>
-      <div class="draggable" id="dumpling4"></div>
-      <div class="draggable" id="dumpling5"></div>
+      <div class="draggable mobileHidden" id="dumpling4"></div>
+      <div class="draggable mobileHidden" id="dumpling5"></div>
       <div class="draggable" id="dumpling6"></div>
       <div class="draggable" id="dumpling7"></div>
     </div>
@@ -30,35 +47,35 @@
       <div class="draggable" id="letterB"></div>
       <div class="draggable" id="letterb"></div>
       <div class="draggable" id="letterC"></div>
-      <div class="draggable" id="letterc"></div>
+      <div class="draggable mobileHidden" id="letterc"></div>
       <div class="draggable" id="letterD"></div>
-      <div class="draggable" id="letterd"></div>
+      <div class="draggable mobileHidden" id="letterd"></div>
       <div class="draggable" id="letterE"></div>
-      <div class="draggable" id="lettere"></div>
+      <div class="draggable mobileHidden" id="lettere"></div>
       <div class="draggable" id="letterF"></div>
       <div class="draggable" id="letterf"></div>
       <div class="draggable" id="letterG"></div>
-      <div class="draggable" id="letterg"></div>
+      <div class="draggable mobileHidden" id="letterg"></div>
       <div class="draggable" id="letterH"></div>
       <div class="draggable" id="letterh"></div>
       <div class="draggable" id="letterI"></div>
       <div class="draggable" id="letteri"></div>
       <div class="draggable" id="letterJ"></div>
-      <div class="draggable" id="letterj"></div>
+      <div class="draggable mobileHidden" id="letterj"></div>
       <div class="draggable" id="letterK"></div>
-      <div class="draggable" id="letterk"></div>
+      <div class="draggable mobileHidden" id="letterk"></div>
       <div class="draggable" id="letterL"></div>
       <div class="draggable" id="letterl"></div>
       <div class="draggable" id="letterM"></div>
       <div class="draggable" id="letterm"></div>
       <div class="draggable" id="letterN"></div>
-      <div class="draggable" id="lettern"></div>
+      <div class="draggable mobileHidden" id="lettern"></div>
       <div class="draggable" id="letterO"></div>
       <div class="draggable" id="lettero"></div>
       <div class="draggable" id="letterP"></div>
-      <div class="draggable" id="letterp"></div>
+      <div class="draggable mobileHidden" id="letterp"></div>
       <div class="draggable" id="letterQ"></div>
-      <div class="draggable" id="letterq"></div>
+      <div class="draggable mobileHidden" id="letterq"></div>
       <div class="draggable" id="letterR"></div>
       <div class="draggable" id="letterr"></div>
       <div class="draggable" id="letterS"></div>
@@ -66,21 +83,22 @@
       <div class="draggable" id="letterT"></div>
       <div class="draggable" id="lettert"></div>
       <div class="draggable" id="letterU"></div>
-      <div class="draggable" id="letteru"></div>
+      <div class="draggable mobileHidden" id="letteru"></div>
       <div class="draggable" id="letterV"></div>
       <div class="draggable" id="letterv"></div>
-      <div class="draggable" id="letterW"></div>
+      <div class="draggable mobileHidden" id="letterW"></div>
       <div class="draggable" id="letterw"></div>
       <div class="draggable" id="letterX"></div>
-      <div class="draggable" id="letterx"></div>
+      <div class="draggable mobileHidden" id="letterx"></div>
       <div class="draggable" id="letterY"></div>
-      <div class="draggable" id="lettery"></div>
+      <div class="draggable mobileHidden" id="lettery"></div>
       <div class="draggable" id="letterZ"></div>
       <div class="draggable" id="letterz"></div>
       <div class="draggable" id="exclaimationmark"></div>
       <div class="draggable" id="questionmark"></div>
     </div>
-    <div style="min-height: 2000px;"></div>
+    <div style="min-height: 100px;"></div>
+    <!-- <div style="min-height: 2000px;"></div> -->
     <div id="poem">
       <div>
         <div style="min-height: 5px;"></div>
