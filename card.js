@@ -68,14 +68,5 @@ function eraseLine(layer) {
 
 function touchMoved() {
   // prevent the display from moving around when you touch it
-  if (mouseX>=0&&mouseX<=500){
-    if (mouseY>=50&&mouseY<=450){
-      return false;
-    }
-    if (mouseY>=750&&mouseY<=1150){
-      return false;
-    }
-  }
-
-
+  //return false;
 }
