@@ -67,6 +67,12 @@ function eraseLine(layer) {
 }
 
 function touchMoved() {
-  // prevent the display from moving around when you touch it
   //return false;
+}
+function touchStarted(){
+  return false;
+}
+
+function touchEnded(){
+  return false;
 }
